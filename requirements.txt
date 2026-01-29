@@ -1,0 +1,46 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Class Imbalance Handling
+imbalanced-learn>=0.9.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Web Application
+streamlit>=1.28.0
+
+# Jupyter Notebook
+jupyter>=1.0.0
+ipykernel>=6.15.0
+
+# Model Persistence (built-in pickle is sufficient)
+# pickle-mixin>=1.0.2
+
+# Logging and Utilities
+tqdm>=4.64.0
+
+# Optional: Advanced ML Libraries
+# xgboost>=1.6.0
+# lightgbm>=3.3.0
+# catboost>=1.0.0
+
+# Development and Testing (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
+
+# Data Processing Utilities
+# pathlib2>=2.3.0  # Not needed for Python 3.4+
+# argparse  # Built-in
+
+# Statistical Analysis
+scipy>=1.9.0
+statsmodels>=0.13.0
+
+# Additional dependencies for enhanced functionality
+regex>=2022.7.0  # For advanced text processing in data cleaning

@@ -1,0 +1,282 @@
+/* PCOS Health Companion - Custom Styles */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Global Styles */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #F5FAFA;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+p, div, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main Header */
+.main-header {
+    background: linear-gradient(135deg, #00BFA6 0%, #00ACC1 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 191, 166, 0.3);
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Metric Cards */
+.metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #00BFA6;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.metric-card h3 {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.metric-card h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Prediction Results */
+.prediction-result {
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.positive-result {
+    background: linear-gradient(135deg, #FFEBEE 0%, #FCE4EC 100%);
+    border: 2px solid #FF6B6B;
+    color: #C62828;
+}
+
+.negative-result {
+    background: linear-gradient(135deg, #E8F5E8 0%, #F1F8E9 100%);
+    border: 2px solid #00BFA6;
+    color: #2E7D32;
+}
+
+/* Health Tips */
+.health-tip {
+    background: linear-gradient(135deg, #F5FAFA 0%, #E0F2F1 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border-left: 4px solid #00BFA6;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.health-tip h4 {
+    color: #00BFA6;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+/* Sidebar Styling */
+.css-1d391kg {
+    background: linear-gradient(180deg, #F5FAFA 0%, #E0F2F1 100%);
+}
+
+.css-17eq0hr {
+    background: linear-gradient(180deg, #F5FAFA 0%, #E0F2F1 100%);
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #00BFA6 0%, #00ACC1 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 191, 166, 0.3);
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 166, 0.4);
+}
+
+/* Input Fields */
+.stNumberInput > div > div > input,
+.stSelectbox > div > div > select,
+.stTextInput > div > div > input {
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.stNumberInput > div > div > input:focus,
+.stSelectbox > div > div > select:focus,
+.stTextInput > div > div > input:focus {
+    border-color: #00BFA6;
+    box-shadow: 0 0 0 3px rgba(0, 191, 166, 0.1);
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #F5FAFA;
+    border-radius: 8px 8px 0 0;
+    color: #666;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #00BFA6;
+    color: white;
+}
+
+/* Metrics */
+.css-1r6slb0 {
+    background: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Charts */
+.js-plotly-plot {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    border-top: 1px solid #E0E0E0;
+    margin-top: 3rem;
+    background: linear-gradient(135deg, #F5FAFA 0%, #E0F2F1 100%);
+    border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.metric-card,
+.health-tip,
+.prediction-result {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
+    .metric-card {
+        padding: 1rem;
+    }
+    
+    .metric-card h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F5FAFA;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00BFA6;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00ACC1;
+}
+
+/* Loading Spinner */
+.stSpinner > div {
+    border-top-color: #00BFA6 !important;
+}
+
+/* Success/Error Messages */
+.stSuccess {
+    background-color: #E8F5E8;
+    border: 1px solid #00BFA6;
+    color: #2E7D32;
+}
+
+.stError {
+    background-color: #FFEBEE;
+    border: 1px solid #FF6B6B;
+    color: #C62828;
+}
+
+.stWarning {
+    background-color: #FFF3E0;
+    border: 1px solid #FF9800;
+    color: #E65100;
+}
+
+.stInfo {
+    background-color: #E3F2FD;
+    border: 1px solid #2196F3;
+    color: #1565C0;
+}
