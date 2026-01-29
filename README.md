@@ -272,22 +272,6 @@ The model expects the following features (adjust based on your dataset):
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Medical professionals who provided domain expertise
-- Open-source community for excellent ML libraries
-- Research papers on PCOS detection and diagnosis
-
-## 📞 Support
-
-For questions, issues, or contributions:
-- Open an issue on GitHub
-- Contact the development team
-- Check the documentation in the `docs/` directory
 
 ---
 
